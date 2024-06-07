@@ -23,7 +23,25 @@ export const brewSlice =  createSlice({
         "website_url": "http://www.madtreebrewing.com",
         "state": "Ohio",
         "street": "5164 Kennedy Ave"
-    }
+      },
+      {
+        "id": "2",
+        "name": "The Prancing Pony",
+        "brewery_type": "Micro",
+        "address_1": "5164 Kennedy Ave",
+        "address_2": null,
+        "address_3": null,
+        "city": "Bree",
+        "state_province": null,
+        "postal_code": "45213",
+        "country": "Middle Earth",
+        "longitude": "0",
+        "latitude": "0",
+        "phone": "5555555555",
+        "website_url": "http://www.prancingpony.com",
+        "state": "Bree",
+        "street": "5164 Kennedy Ave"
+      }
     ],
     status: 'idle',
     error: null,

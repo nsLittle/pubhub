@@ -10,9 +10,11 @@ export default function PubHub() {
 
 
   return (
-    <>
-      <Welcome/>
-      <BreweryCard />
-    </>
+    <main>
+      <div className="container">
+        <Welcome/>
+        <BreweryList/>
+      </div>
+    </main>
   )
 };

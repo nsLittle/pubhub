@@ -4,10 +4,10 @@
  */
 export function Welcome() {
   return (
-  <div className="welcome">
-    <h1>Pub Hub</h1>
+  <header className="border-bottom p-4 welcome">
+    <h1>PubHub</h1>
     <p>Welcome. Use this app to find breweries near you!</p>
-    <button>Go</button>
-  </div>
+    <a href="#" className="btn btn-lg btn-outline-light">Find Pubs</a>
+  </header>
 );
 }

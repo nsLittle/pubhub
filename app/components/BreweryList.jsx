@@ -11,7 +11,7 @@ export function BreweryList() {
   const breweries = useSelector((state) => state.breweries.breweries);
 
   return (
-    <div className="col-md-6 p-4">
+    <div className="col-md-4 p-4">
       <div className="list-group">
         {/* Maps breweries to individual cards on the page */}
         {breweries.map(brewery => (<BreweryCard key={brewery.id} brewery={brewery}/>))}

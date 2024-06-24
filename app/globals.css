@@ -13,9 +13,8 @@ h1 {
 }
 
 .breweryCard {
-  background-color: none;
+  background-color:white;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  /* height: 50px; */
+  border-style: none;
 }

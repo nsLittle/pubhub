@@ -1,7 +1,7 @@
 'use client'
 import { BreweryCard } from "./BreweryCard";
 import { useSelector } from 'react-redux';
-import { act, useState } from "react";
+import { useState } from "react";
 
 /**
  * A component to display the list of brewery cards
@@ -14,7 +14,7 @@ export function BreweryList() {
   const [activeCard, setActiveCard] = useState(0);
 
   return (
-    <div className="col-md-4 p-4">
+    <div className="col-md-5 p-4">
       <div className="list-group">
         {/* Maps breweries to individual cards on the page */}
         {breweries.map(brewery => (
